@@ -14,7 +14,7 @@ echo "======build-docker-ARM64===="
 echo "commit build-docker-ARM64..."
 pwd
 git add ./ -A
-git commit -a -m "for ARM64"
+git commit -a -m "$MSG"
 git push
 cd ..
 
