@@ -4,18 +4,18 @@
 Build toolchain for Docker on ARM64.
 
 ## Include project:
-* Docker base image of ubuntu xenial (ARM64).
+### Docker base image of ubuntu xenial (ARM64).
 - ubuntu-root
 - ubuntu-rock
 - ubuntu-golang
 - ubuntu-nodejs
 
-* Docker Latest (ARM64)
+### Docker Latest (ARM64)
 - docker (1.14.0)
 - containerd
 - runc
 
-* Weave Net (ARM64)
+### Weave Net (ARM64)
 - weave
 - scope
 - cortex
