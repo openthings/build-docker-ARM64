@@ -1,0 +1,26 @@
+[Unit]
+Description=Docker Application Container Engine
+Documentation=https://docs.docker.com
+After=network.target docker.socket
+Requires=docker.socket
+
+[Service]
+Type=notify
+#ExecStart=/usr/bin/docker daemon -H fd:// -s overlay
+ExecStart=/usr/bin/dockerd-1.14.0-dev -H fd:// -s overlay
+ExecReload=/bin/kill -s HUP $MAINPID
+
+#MountFlags=slave
+
+LimitNOFILE=infinity
+LimitNPROC=infinity
+LimitCORE=infinity
+
+TaskMax=infinity
+TimeoutStartSec=0
+
+Delegate=yes
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
