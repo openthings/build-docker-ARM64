@@ -19,7 +19,7 @@ git push
 cd ..
 
 echo
-echo "======build-tools===="
+echo "======build-tools==========="
 echo "commit build-tools..."
 cd build-tools
 git add ./ -A
@@ -31,7 +31,7 @@ cd ..
 #ubuntu-root
 
 echo
-echo "======ubuntu-rock===="
+echo "======ubuntu-rock==========="
 echo "commit ubuntu-rock..."
 cd ubuntu-rock
 git add ./
@@ -40,7 +40,7 @@ git push
 cd ..
   
 echo
-echo "======ubuntu-golang===="
+echo "======ubuntu-golang========="
 echo "commit ubuntu-golang..."
 cd ubuntu-golang
 git add ./
@@ -49,7 +49,7 @@ git push
 cd ..
 
 echo
-echo "======ubuntu-nodejs===="
+echo "======ubuntu-nodejs========="
 echo "commit ubuntu-nodejs..."
 cd ubuntu-nodejs
 git add ./
@@ -57,9 +57,9 @@ git commit -a -m "$MSG"
 git push
 cd ..
   
-###########################
+##################################
 echo
-echo "======docker ===="
+echo "======docker ==============="
 echo "commit docker ..."
 cd docker 
 git add ./
@@ -68,7 +68,7 @@ git push
 cd ..
 
 echo
-echo "======containerd ===="
+echo "======containerd ==========="
 echo "commit containerd ..."
 cd containerd 
 git add ./
@@ -77,7 +77,7 @@ git push
 cd ..
 
 echo
-echo "======runc ===="
+echo "======runc ================"
 echo "commit runc ..."
 cd runc 
 git add ./
@@ -85,9 +85,9 @@ git commit -a -m "$MSG"
 git push
 cd ..
  
-###########################
+#################################
 echo
-echo "======weave ===="
+echo "======weave ==============="
 echo "commit weave ..."
 cd weave 
 git add ./
@@ -96,7 +96,7 @@ git push
 cd ..
   
 echo
-echo "======scope ===="
+echo "======scope ==============="
 echo "commit scope ..."
 cd scope 
 git add ./
@@ -105,7 +105,7 @@ git push
 cd ..  
 
 echo
-echo "======cortex ===="
+echo "======cortex =============="
 echo "commit cortex ..."
 cd cortex 
 git add ./
@@ -114,7 +114,7 @@ git push
 cd ..  
   
 echo
-echo "======flux ===="
+echo "======flux ================"
 echo "commit flux ..."
 cd flux 
 git add ./
