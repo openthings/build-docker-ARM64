@@ -7,6 +7,8 @@ echo ""
 
 export MSG="commit ARM64..."
 
+echo $MSG
+
 echo
 echo "======build-docker-ARM64===="
 echo "commit build-docker-ARM64..."
