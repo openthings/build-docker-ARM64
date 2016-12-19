@@ -124,7 +124,7 @@ cd ..
   
 echo
 echo "=============================================="
-echo "==Build: Docker ARM64 Projects FINISHED.======"
-echo "==Please Enjoy!          By openthings@163.com"
+echo "* Commit: Docker ARM64 Projects FINISHED.====*"
+echo "* Please Enjoy!         By openthings@163.com*"
 echo "=============================================="
 echo
