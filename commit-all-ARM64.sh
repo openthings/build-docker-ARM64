@@ -5,13 +5,14 @@ echo "Visit: 	https://github.com/openthings"
 echo "=============================================="
 echo ""
 
-MSG="commit ARM64..."
+export MSG="commit ARM64..."
 
 echo
 echo "======build-docker-ARM64===="
 echo "commit build-docker-ARM64..."
+pwd
 git add ./ -A
-git commit -a -m $MSG
+git commit -a -m "for ARM64"
 git push
 cd ..
 
