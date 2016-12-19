@@ -3,27 +3,27 @@
 
 Build toolchain for Docker on ARM64.
 
-## Include project:
-#### 1. Docker base image of ubuntu xenial (ARM64).
+## Include project
+#### Docker base image of ubuntu xenial (ARM64).
 - ubuntu-root
 - ubuntu-rock
 - ubuntu-golang
 - ubuntu-nodejs
 
-#### 2. Docker Latest (ARM64)
+#### Docker Latest (ARM64)
 - docker (1.14.0)
 - containerd
 - runc
 
-#### 3. Weave Net (ARM64)
+#### Weave Net (ARM64)
 - weave
 - scope
 - cortex
 - flux
 
-## Supported SoC Board:
+## Supported SoC Board
 - 96Boards, Snapdragon 410C
 - 96Boards, Hikey Kirin-620
 
-## TODO:
+## TODO
 - setup-docker shell script.
