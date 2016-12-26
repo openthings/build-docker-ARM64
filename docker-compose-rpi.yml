@@ -1,6 +1,7 @@
 version: '2'
 services:
   probe:
+    container_name: weavescope
     image: dilgerm/rpi-scope
     network_mode: "host"
     pid: "host"
